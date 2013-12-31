@@ -1,0 +1,6 @@
+<h2><%= t("main.about_me") %></h2>
+
+<%= content_tag_for :article, @articles do |article| %>
+  <p class="published-at"><%= article.render_published_at %></p>
+  <p class="title" data-no-turbolink><%= article.link_to_this_article %></p>
+<% end %>

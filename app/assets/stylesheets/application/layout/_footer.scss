@@ -1,0 +1,11 @@
+.site-footer {
+  background-color: $FOOTER_COLOR;
+}
+
+.site-footer .copyright {
+  text-align: center;
+  line-height: 60px;
+  color: $FOOTER_TEXT_COLOR;
+  font-size: 14px;
+  margin: 60px 0 0;
+}

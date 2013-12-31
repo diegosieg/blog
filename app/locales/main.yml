@@ -1,0 +1,12 @@
+pt-BR:
+  main:
+    site_title: "%{page_title} | Blog do Fábio Rodrigues"
+    home_title: "Home"
+
+    header:
+      title: "Fábio Rodrigues"
+
+    about_me: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, quos, itaque repudiandae tenetur quibusdam accusamus perferendis illo quas odio debitis."
+
+    footer:
+      copyright: "® Fábio Rodrigues"

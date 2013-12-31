@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title><%= t("main.site_title", page_title: @page_title) %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Fábio Rodrigues">
+    <meta name="description" content="Blog do Fábio Rodrigues. Artigos sobre Ruby, Rails, JavaScript, jQuery, etc.">
+    <meta name="keywords" content="blog ruby rails gems javascript jquery css scss sass html erb">
+    <link rel="canonical" href="http://fabiomr.com.br">
+
+    <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    <%= csrf_meta_tags %>
+  </head>
+
+  <body>
+
+    <header class="site-header">
+      <h1 class="title"><%= link_to t("main.header.title"), root_path %></h1>
+    </header>
+
+    <section id="<%= controller_and_action_name %>" class="site-container">
+      <%= yield %>
+    </section>
+
+    <footer class="site-footer">
+      <p class="copyright"><%= t("main.footer.copyright") %></p>
+    </footer>
+
+  </body>
+</html>
