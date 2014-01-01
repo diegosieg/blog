@@ -60,14 +60,6 @@ GEM
     erubis (2.7.0)
     eventmachine (1.0.3)
     execjs (2.0.2)
-    factory_girl (4.3.0)
-      activesupport (>= 3.0.0)
-    factory_girl-preload (2.0.2)
-      factory_girl (>= 3.0)
-    faker (1.2.0)
-      i18n (~> 0.5)
-    foreigner (1.6.0)
-      activerecord (>= 3.0.0)
     fssm (0.2.10)
     hike (1.2.3)
     i18n (0.6.9)
@@ -191,10 +183,6 @@ DEPENDENCIES
   capybara
   clean_logger
   compass-rails
-  factory_girl
-  factory_girl-preload
-  faker
-  foreigner
   jquery-rails
   jquery-turbolinks
   mysql2

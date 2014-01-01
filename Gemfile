@@ -11,7 +11,6 @@ gem "mysql2"
 # ASSETS - Back-end
 #==================================================
 gem "rails-i18n"
-gem "foreigner"
 gem "active_decorator"
 
 #==================================================
@@ -48,7 +47,4 @@ end
 
 group :test do
   gem "capybara"
-  gem "factory_girl"
-  gem "factory_girl-preload"
-  gem "faker"
 end

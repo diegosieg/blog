@@ -13,3 +13,6 @@
 
 # Ignore drafts articles
 /db/seeds/articles/drafts/*
+
+# Ignore deploy config file
+/config/deploy.rb
