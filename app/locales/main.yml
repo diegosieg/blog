@@ -9,4 +9,4 @@ pt-BR:
     about_me: "Aqui você encontrará dicas e truques sobre Ruby, Rails, JavaScript, JQuery e outras."
 
     footer:
-      copyright: "® Fábio Rodrigues"
+      follow_me_html: "Quer saber quando sair um novo post? <a href='https://twitter.com/fabiomr83' target='_blank'>Siga-me no twitter!</a>"

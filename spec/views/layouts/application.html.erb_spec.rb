@@ -9,7 +9,7 @@ describe "rendering application layout" do
     expect(rendered).to have_translation("main.header.title")
   end
 
-  it "displays footer copyright" do
-    expect(rendered).to have_translation("main.footer.copyright")
+  it "displays footer text" do
+    expect(rendered).to have_translation("main.footer.follow_me_html")
   end
 end
