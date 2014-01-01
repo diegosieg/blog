@@ -3,7 +3,7 @@ Article.create! do |article|
   article.title = "I18n para datas, números e boolianos"
   article.published_at = Time.new(2014, 1, 6)
   article.description = <<-HTML
-<p>Um pequeno truque que uso em todos meus projetos para facilitar a tradução de datas, números e boolianos.</p>
+<p>Aqui vai um pequeno truque que uso em todos meus projetos para facilitar a tradução de datas, números e boolianos.</p>
 
 <p>Crie o arquivo <strong>config/initializers/locale.rb</strong></p>
 <script src="https://gist.github.com/FabioMR/8197230.js"></script>

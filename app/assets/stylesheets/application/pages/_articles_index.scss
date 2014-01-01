@@ -15,6 +15,9 @@
   .article .title {
     margin: 0;
     line-height: 30px;
+    a {
+      color: inherit;
+    }
   }
 
 }

@@ -23,7 +23,7 @@ p {
 }
 
 a {
-  color: inherit;
+  color: $LINK_COLOR;
   text-decoration: none;
   &:hover {
     text-decoration: underline;
