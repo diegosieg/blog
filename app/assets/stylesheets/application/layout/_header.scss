@@ -1,5 +1,5 @@
 .site-header {
-  margin: 30px 0 80px;
+  margin: 30px 0 0;
 }
 
 .site-header a {
@@ -11,11 +11,7 @@
 
 .site-header-logo {
   display: block;
-  margin: 0 auto;
+  margin: 0 auto -40px;
   width: 150px;
   border-radius: 50%;
-}
-
-.site-header-title {
-  line-height: 0;
 }

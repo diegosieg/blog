@@ -1,7 +1,7 @@
 Article.create! do |article|
   article.slug = "bem-vindo-ao-meu-blog"
   article.title = "Bem-vindo ao meu blog"
-  article.published_at = Time.new(2014, 1, 1)
+  article.published_at = Date.new(2014, 1, 1)
   article.description = <<-HTML
 <p>Meu nome é Fábio Rodrigues, sou formado em Ciências da Computação e desenvolvo profissionalmente desde meus 17 anos. Gosto de dizer que nunca trabalhei com nada além disso. Criei este blog para compartilhar um pouco do meu conhecimendo com a comunidade.</p>
 

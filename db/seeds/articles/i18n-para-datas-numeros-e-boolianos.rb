@@ -1,7 +1,7 @@
 Article.create! do |article|
   article.slug = "i18n-para-datas-numeros-e-booleanos"
   article.title = "I18n para datas, números e booleanos"
-  article.published_at = Time.new(2014, 1, 6)
+  article.published_at = Date.new(2014, 1, 6)
   article.description = <<-HTML
 <p>Aqui vai um pequeno truque que uso em todos meus projetos para facilitar a tradução de datas, números e booleanos.</p>
 
