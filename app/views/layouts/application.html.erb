@@ -8,7 +8,6 @@
     <meta name="keywords" content="blog ruby rails gems javascript jquery css scss sass html erb">
     <link rel="canonical" href="http://fabiomr.com.br">
 
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,600,400,700,800' rel='stylesheet' type='text/css'>
     <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
     <%= csrf_meta_tags %>
@@ -17,7 +16,10 @@
   <body>
 
     <header class="site-header">
-      <h1 class="title"><%= link_to t("main.header.title"), root_path %></h1>
+      <%= link_to root_path do %>
+        <%= image_tag "logo.png", class: "site-header-logo" %>
+        <%= content_tag :h1, t("main.header.title"), class: "site-header-title" %>
+      <% end %>
     </header>
 
     <section id="<%= controller_and_action_name %>" class="site-container">

@@ -1,6 +1,21 @@
-.site-header .title a {
+.site-header {
+  margin: 30px 0 80px;
+}
+
+.site-header a {
   color: inherit;
   &:hover {
     text-decoration: none;
   }
+}
+
+.site-header-logo {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.site-header-title {
+  line-height: 0;
 }
