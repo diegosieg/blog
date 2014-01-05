@@ -1,25 +1,25 @@
 h1, h2 {
+  font-family: $FONT_FAMILY_BASE;
   text-align: center;
 }
 
 h1 {
   color: $TEXT_COLOR;
   font-size: 60px;
-  font-family: $FONT_FAMILY_MONOSPACE;
-  text-transform: uppercase;
+  font-weight: 700;
 }
 
 h2 {
-  color: $STRONG_TEXT_COLOR;
+  color: $MUTED_TEXT_COLOR;
   font-size: 30px;
-  font-weight: normal;
-  font-family: $FONT_FAMILY_SANS_SERIF;
+  font-weight: 300;
 }
 
 p {
+  margin: 30px 0;
   color: $TEXT_COLOR;
   font-size: 18px;
-  margin: 30px 0;
+  font-weight: 300;
 }
 
 a {

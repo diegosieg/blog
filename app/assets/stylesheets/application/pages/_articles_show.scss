@@ -1,14 +1,15 @@
 #articles-show {
 
   .published-at {
+    margin-top: 0;
     margin-bottom: 60px;
-    text-transform: uppercase;
     text-align: center;
     font-size: 14px;
+    color: $MUTED_TEXT_COLOR;
   }
 
   #disqus_thread {
-    border-top: solid 2px #cce77a;
+    border-top: solid 2px $BORDER_COLOR;
     margin-top: 60px;
     padding-top: 60px;
   }

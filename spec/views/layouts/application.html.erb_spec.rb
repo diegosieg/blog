@@ -10,6 +10,6 @@ describe "rendering application layout" do
   end
 
   it "displays footer text" do
-    expect(rendered).to have_translation("main.footer.follow_me_html")
+    expect(rendered).to have_content(t("main.footer.follow_me_html"))
   end
 end
