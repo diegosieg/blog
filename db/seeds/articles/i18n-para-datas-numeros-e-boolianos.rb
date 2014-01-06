@@ -20,6 +20,6 @@ Article.create! do |article|
 <p>E caso seja um valor nulo...</p>
 <script src="https://gist.github.com/FabioMR/72781088623d832dbe14.js"></script>
 
-<p><strong>Obs.:</strong> Vale lembrar, que para tudo isso funcionar, devemos ter nossos arquivos de localização devidamente configurados. Uma dica é usar a gem <strong>rails-i18n</strong> que já faz boa parte do trabalho.</p>
+<p><strong>Obs.:</strong> Vale lembrar que para tudo isso funcionar, devemos ter nossos arquivos de localização devidamente configurados. Uma dica é usar a gem <strong>rails-i18n</strong> que já faz boa parte do trabalho.</p>
   HTML
 end

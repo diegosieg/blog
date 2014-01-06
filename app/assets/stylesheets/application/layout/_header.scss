@@ -10,8 +10,8 @@
 }
 
 .site-header-logo {
+  @include border-radius(50%);
   display: block;
   margin: 0 auto -40px;
   width: 150px;
-  border-radius: 50%;
 }

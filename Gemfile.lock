@@ -190,7 +190,7 @@ DEPENDENCIES
   pry-meta
   rails (= 4.1.0.beta1)
   rails-i18n
-  rspec-rails (~> 3.0.0.beta1)
+  rspec-rails
   sass-rails
   spring
   thin
